@@ -30,6 +30,11 @@ body {
     background-image: 5rem;
 }
 
+img {
+	width: 100%; 
+    display: block;
+}
+
 a:link, a:visited {
     color: gold;
     text-decoration: none;
@@ -40,94 +45,11 @@ a:hover, a:active {
     color: gold  
 }
 
-nav {
-    float: left;
-}
-
-ul {
-    width: auto;
-}
-
-.post-info {
-    font-style: italic;
-    font-size: 60%;
-}
-
-nav ul {
-        margin: 0;
-    padding: 0;
-    float: left;
-    width: 100%;
-    background-color: red;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    float: left; 
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white; 
-    padding: 1.5rem 4%;
-    background-color:  red;
-}
- 
-nave ul li a:visited {
-    color: white;
-}
- 
-nav ul li a:hover {
-    color: black;
-    background-color: #be5;
-}
-
-nav li {
-display:inline;
-}
-
-.mainheader img {
-    width: 30%;
-    height: auto;
-    margin: 2% 0;
-}
-
-.mainheader nav {
-    width: 30%;
-    height: 40px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-.mainheader nav ul {
-    list-style: none;
-    margin: 0;
-}
-
-.mainheader nav ul li {
-    float: left;
-    display: inline;
-}
-
-.mainheader nav a:link, .mainheader nav a:visited {
-    color: white;
-    display: inline-block;
-    padding: 10px 25px;
-}
-
-.body {
-    margin: 0 auto;
-    width: 70%;
-    clear: both;
-}
-
-
 .masthead {
     background-image: url(../images/madmendraper.jpg);
     background-size: 100%;
     overflow: hidden;
+    height: 19.6rem;
 }
 
 .logo {
@@ -137,14 +59,34 @@ display:inline;
     margin: 2.5rem 5%;
 }
 
-img {
-	width: 100%; 
-    display: block;
+nav {
+    margin: 15.5rem 0 0 0;
+    background-color: red;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+nav ul {
+    padding: 1.5rem;
+    background-color: red;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    padding: 1.5rem 4%;
+    background-color: red;
+}
+ 
+nav ul li a:visited {
+    color: white;
+}
+ 
+nav ul li a:hover {
+    color: black;
+    background-color: #be5;
 }
 
 article {
@@ -260,7 +202,6 @@ ol,
 ul {
     margin: 0 2 1.5rem;
 }
-
 
 footer {
     background-color: black;
