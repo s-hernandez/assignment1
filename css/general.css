@@ -32,7 +32,7 @@ body {
 img {
 	width: 100%; 
     display: block;
-    margin: 0;
+    margin: 0rem;
 }
 
 a:link, a:visited {
@@ -228,7 +228,7 @@ dd {
 
 ol,
 ul {
-    margin: 0 2 1.5rem 0%;
+    margin: 0 2 1.5rem;
 }
 
 footer {
