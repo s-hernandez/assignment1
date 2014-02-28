@@ -26,7 +26,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
-    background-image: url(../images/patternwhite.jpg);
     background-image: 5rem;
 }
 
@@ -46,27 +45,37 @@ a:hover, a:active {
 }
 
 .masthead {
+    margin: 0;
     background-image: url(../images/madmendraper.jpg);
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: black;
     overflow: hidden;
     height: 19.6rem;
 }
 
 .logo {
     float: right;
-    height: 1.5rem;
+    height: 2rem;
     width: auto;
     margin: 2.5rem 5%;
 }
 
+h2 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
 nav {
-    margin: 15.5rem 0 0 0;
+    margin: 10.9rem 0 0 0;
     background-color: red;
 }
 
 nav ul {
     padding: 1.5rem;
-    background-color: red;
+    background-color: maroon;
 }
 
 nav ul li {
@@ -77,7 +86,7 @@ nav ul li a {
     text-decoration: none;
     color: white; 
     padding: 1.5rem 4%;
-    background-color: red;
+    background-color: maroon;
 }
  
 nav ul li a:visited {
@@ -86,7 +95,7 @@ nav ul li a:visited {
  
 nav ul li a:hover {
     color: black;
-    background-color: gold;
+    background-color: white;
 }
 
 article {
@@ -97,17 +106,18 @@ article {
 
 h1 {
     font-family: Helvetica, Times, serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 3.25rem;
     line-height: 3rem;
     margin: 3rem 0;
+    letter-spacing: -.2rem;
 }
 
 h1 span {
     color: red;
 }
 
-h2 {
+h3 {
     font-size: 1.25rem;
     margin: 0 0 1.5rem;
     border-top: solid .1rem;
@@ -163,6 +173,23 @@ blockquote span {
 
 blockquote p {
     font-size: .875rem;
+}
+
+img {
+    margin: 50;
+    display: block;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+    font-size: .8rem
+}
+
+.figcaption {
+    font-size: .75rem;
+    padding: .5rem 5%;
+    background-color: black;
 }
 
 blockquote p:before {
