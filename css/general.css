@@ -26,12 +26,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
-    background-image: 5rem;
+    background-size: 5rem;
 }
 
 img {
 	width: 100%; 
     display: block;
+    margin: 0;
 }
 
 a:link, a:visited {
@@ -41,7 +42,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: gold  
+    color: white;  
 }
 
 .masthead {
@@ -65,7 +66,7 @@ a:hover, a:active {
 h2 {
     margin: 0;
     padding: 0.5rem 1rem;
-    color: white;
+    color: gold;
 }
 
 nav {
@@ -127,7 +128,7 @@ h3 {
 
 p {
     line-height: 1.5rem;
-    margin-bottom: 0 0 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .dropcap:first-letter {
@@ -183,7 +184,7 @@ img {
 figure {
     margin: 0 auto 1.5rem;
     width: 90%;
-    font-size: .8rem
+    font-size: .8rem;
 }
 
 .figcaption {
@@ -227,7 +228,7 @@ dd {
 
 ol,
 ul {
-    margin: 0 2 1.5rem;
+    margin: 2 1.5rem;
 }
 
 footer {
