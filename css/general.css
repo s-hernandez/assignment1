@@ -176,11 +176,6 @@ blockquote p {
     font-size: .875rem;
 }
 
-img {
-    margin: 50;
-    display: block;
-}
-
 figure {
     margin: 0 auto 1.5rem;
     width: 90%;
@@ -224,11 +219,6 @@ dt {
 
 dd {
     margin: 0 0 1.5rem 10%;
-}
-
-ol,
-ul {
-    margin: 0 2 1.5rem;
 }
 
 footer {
